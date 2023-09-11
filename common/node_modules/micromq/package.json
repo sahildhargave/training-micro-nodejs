@@ -1,0 +1,50 @@
+{
+  "name": "micromq",
+  "version": "3.0.2",
+  "description": "Microservice framework based on native Node.js HTTP module and AMQP protocol (express integration as feature).",
+  "main": "src/MicroService.js",
+  "scripts": {
+    "test": "mocha ./tests --exit --timeout 30000"
+  },
+  "keywords": [
+    "microservice",
+    "microservice-framework",
+    "gateway",
+    "http",
+    "rabbitmq",
+    "amqp",
+    "prometheus",
+    "express",
+    "express-middleware"
+  ],
+  "author": "Mikhail Semin",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "co-body": "^6.0.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "methods": "^1.1.2",
+    "nanoid": "^2.0.1",
+    "path-to-regexp": "^3.0.0",
+    "prom-client": "^11.3.0",
+    "querystring": "^0.2.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "chai-json-schema": "^1.5.0",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bifot/micromq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bifot/micromq/issues"
+  },
+  "homepage": "https://github.com/bifot/micromq#readme"
+}
